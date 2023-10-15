@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('images (1).jpeg');
+            background-size: cover;
+            background-position: center;
+            margin: 0;
+            padding: 0;
+            background-color: purple;
+        }
+
+        header {
+            background-color: black;
+            color: white;
+            padding: 20px 0;
+            text-align: right;
+        }
+
+        .nav-menu {
+            display: inline-block;
+            margin-right: 20px;
+        }
+
+        .nav-menu a {
+            text-decoration: none;
+            color: white;
+            margin: 0 15px;
+        }
+
+        .contact-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: calc(100vh - 40px);
+        }
+
+        .contact-left {
+            flex: 1;
+            padding: 20px;
+            background-color: whitesmoke;
+            border-radius: 5px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+        }
+
+        .map-right {
+            flex: 1;
+            padding: 20px;
+        }
+
+        .vertical-line {
+            width: 2px;
+            background-color: black;
+            height: 100%;
+        }
+
+        h1 {
+            font-size: 24px;
+            color: #333;
+        }
+
+        p {
+            font-size: 16px;
+            color: #555;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        input, textarea {
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        footer {
+            background-color: #000; /* Footer background color */
+            color: #fff; /* Text color in the footer */
+            padding: 30px 0;
+        }
+
+        .footer-content {
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-start;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .footer-logo img {
+            max-width: 100px;
+        }
+
+        .footer-info h2,
+        .footer-social h2 {
+            font-size: 18px;
+        }
+
+        .footer-info p {
+            font-size: 14px;
+        }
+
+        .footer-info p, .footer-social ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .footer-social ul {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .footer-social li {
+            margin-bottom: 10px;
+        }
+
+        .footer-bottom {
+            text-align: center;
+            background-color: #000; /* Footer background color */
+            color: #fff; /* Text color in the footer */
+            padding: 10px 0;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="nav-menu">
+            <a href="services.html">Services</a>
+            <a href="languages.html">Languages</a>
+            <a href="home.html">home</a>
+
+        </div>
+    </header>
+    <div class="contact-container">
+        <div class="contact-left">
+            <h1>Send Me a Message</h1>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        <div class="vertical-line"></div>
+        <div class="map-right">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.822827
+            3515783!2d36.893906374965695!3d-1.2799387987078816!2m3!1f0!2f0!3f0!3m2!1i1024!2i7
+            68!4f13.1!3m3!1m2!1s0x182f1389933cf56f%3A0xc5293df4060157b4!2sKwa%20Chief!5e0!3m2!1
+            sen!2ske!4v1697400355532!5m2!1sen!2ske" width="600" height="450" style="border:0;" 
+            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="LOGO.png" alt="Your Logo">
+            </div>
+            <div class="footer-info">
+                <h2>Contact Me</h2>
+                <p>
+                    Ronny Steve Majiwa<br>
+                    Web Developer<br>
+                    Email: ronnybusiness18@gmail.com<br>
+                    Phone: +254759654382
+                </p>
+            </div>
+            <div class="footer-social">
+                <h2>Follow Me</h2>
+                <ul>
+                    <li><a href="#" target="_blank">LinkedIn</a></li>
+                    <li><a href="#" target="_blank">Twitter</a></li>
+                    <li><a href="#" target="_blank">GitHub</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2023 Your Name. All Rights Reserved.
+        </div>
+    </footer>
+</body>
+</html>

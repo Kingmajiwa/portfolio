@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Languages</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('images (1).jpeg');
+            background-size: cover;
+            background-position: center;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        header {
+            background-color: black;
+            color: white;
+            padding: 20px 0;
+            text-align: right;
+        }
+
+        .nav-menu {
+            display: inline-block;
+            margin-right: 20px;
+        }
+
+        .nav-menu a {
+            text-decoration: none;
+            color: white;
+            margin: 0 15px;
+        }
+
+        .languages-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: calc(100vh - 40px);
+        }
+
+        .languages-content {
+            padding: 30px;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+            text-align: center;
+            max-width: 800px;
+        }
+
+        h1 {
+            font-size: 36px;
+            color: #000;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            margin: 10px 0;
+            display: flex;
+            align-items: center;
+            transition: transform 0.2s, cursor 0.2s; /* Add a smooth transition effect for transform and cursor */
+        }
+
+        li:hover {
+            transform: scale(1.05);
+            cursor: pointer; /* Change cursor to pointer when hovering */
+        }
+
+        li::before {
+            content: '✓';
+            margin-right: 10px;
+            color: #007BFF;
+            font-size: 24px;
+        }
+
+        footer {
+            background-color: #000;
+            color: #fff;
+            padding: 30px 0;
+        }
+
+        .footer-content {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .footer-logo img {
+            max-width: 80px;
+        }
+
+        .footer-info h2,
+        .footer-social h2 {
+            font-size: 18px;
+        }
+
+        .footer-info p {
+            font-size: 14px;
+        }
+
+        .footer-info p, .footer-social ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .footer-social ul {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .footer-social li {
+            margin-bottom: 10px;
+        }
+
+        .footer-bottom {
+            text-align: center;
+            background-color: #000;
+            color: #fff;
+            padding: 10px 0;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="nav-menu">
+            <a href="services.html">Services</a>
+            <a href="home.html">Home</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </header>
+    <div class="languages-container">
+        <div class="languages-content">
+            <h1>Languages</h1>
+            <p>
+                Explore the world of web development languages and technologies. Enhance your skills with these languages:
+            </p>
+            <ul>
+                <li>HTML (Hypertext Markup Language): The standard markup language for creating web pages.</li>
+                <li>CSS (Cascading Style Sheets): Used for styling and layout of web pages.</li>
+                <li>JavaScript: A programming language that allows for interactive and dynamic elements on websites.</li>
+                <li>Database Management: Knowledge of databases like MySQL, PostgreSQL, MongoDB, etc.</li>
+            </ul>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="LOGO.png" alt="Your Logo">
+            </div>
+            <div class="footer-info">
+                <h2>Contact Me</h2>
+                <p>
+                    Ronny Steve Majiwa<br>
+                    Web Developer<br>
+                    Email: ronnybusiness18@gmail.com<br>
+                    Phone: +254759654382
+                </p>
+            </div>
+            <div class="footer-social">
+                <h2>Follow Me</h2>
+                <ul>
+                    <li><a href="#" target="_blank">LinkedIn</a></li>
+                    <li><a href="#" target="_blank">Twitter</a></li>
+                    <li><a href="#" target="_blank">GitHub</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2023 Your Name. All Rights Reserved.
+        </div>
+    </footer>
+</body>
+</html>

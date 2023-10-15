@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <style>
+       body {
+            font-family: Arial, sans-serif;
+            background-image: url('images (1).jpeg');/* Add the path to your image */
+            background-size: cover; /* Ensures the image covers the entire viewport */
+            background-position: center; /* Center the image */
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: black;
+            color: white;
+            padding: 20px 0; /* Increased header padding */
+            text-align: right;
+        }
+
+        .nav-menu {
+            display: inline-block;
+            margin-right: 20px;
+        }
+
+        .nav-menu a {
+            text-decoration: none;
+            color: white;
+            margin: 0 15px;
+        }
+
+        .about-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: calc(100vh - 40px); /* Adjusted to account for header height */
+        }
+
+        .about-image {
+            flex: 1;
+            padding: 20px;
+        }
+
+        .about-image img {
+            max-width: 80%; /* Reduced photo size */
+            border-radius: 50%;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+        }
+
+        .about-text {
+            flex: 2;
+            padding: 20px;
+            background-color: whitesmoke;
+            border-radius: 5px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+        }
+
+        h1 {
+            font-size: 24px;
+            color: #333;
+        }
+
+        p {
+            font-size: 16px;
+            color: #555;
+        }
+
+        footer {
+            background-color: #000; /* Footer background color */
+            color: #fff; /* Text color in the footer */
+            padding: 30px 0;
+        }
+
+        .footer-content {
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-start;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .footer-logo img {
+            max-width: 100px;
+        }
+
+        .footer-info h2,
+        .footer-social h2 {
+            font-size: 18px;
+        }
+
+        .footer-info p {
+            font-size: 14px;
+        }
+
+        .footer-info p, .footer-social ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .footer-social ul {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .footer-social li {
+            margin-bottom: 10px;
+        }
+
+        .footer-bottom {
+            text-align: center;
+            background-color: #000; /* Footer background color */
+            color: #fff; /* Text color in the footer */
+            padding: 10px 0;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="nav-menu">
+            <a href="services.html">Services</a>
+            <a href="languages.html">Languages</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </header>
+    <div class="about-container">
+        <div class="about-image">
+            <img src="IMG-20221002-WA0075.jpg" alt="Your Image">
+        </div>
+        <div class="about-text">
+            <h1>About Me</h1>
+            <p>
+                Hello, I'm Ronny Steve Majiwa, a passionate web developer with a keen 
+                and effective design. My journey in the digital world began with a curiosity for 
+                creating interactive web experiences, and it has grown into a full-fledged career.
+                 I specialize in crafting user-friendly websites and web applications that not only
+                  look great but also perform seamlessly. <br><br>With a commitment to staying up-to-date
+                   with the latest web technologies and a dedication to providing top-notch solutions,
+                    I'm here to transform your ideas into digital realities. Let's work together to
+                     bring your web projects to life.
+            </p>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="LOGO.png" alt="Your Logo">
+            </div>
+            <div class="footer-info">
+                <h2>Contact Me</h2>
+                <p>
+                    Ronny Steve Majiwa<br>
+                    Web Developer<br>
+                    Email: ronnybusiness18@gmail.com<br>
+                    Phone: +254759654382
+                </p>
+            </div>
+            <div class="footer-social">
+                <h2>Follow Me</h2>
+                <ul>
+                    <li><a href="#" target="_blank">LinkedIn</a></li>
+                    <li><a href="#" target="_blank">Twitter</a></li>
+                    <li><a href="#" target="_blank">GitHub</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2023 Your Name. All Rights Reserved.
+        </div>
+    </footer>
+</body>
+</html>
+
+
+
+
